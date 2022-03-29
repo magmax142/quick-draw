@@ -1,0 +1,42 @@
+.modal-dialog{
+    width: 70%;
+}
+label{
+    font-size: 25px;
+}
+#showSketch{
+    float: right;
+    margin-right: 10px;
+}
+body{
+    background-color: aquamarine;
+}
+
+h1
+{
+    color: yellowgreen;
+}
+#showSketch{
+    float: right;
+}
+
+canvas{
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    animation-name: COOPACOP;
+    animation-duration: 4s;
+    margin-top: 150px;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+from{box-shadow: 1px 1px 38px gray;}
+to{box-shadow: 1px 1px 1px ghostwhite;}
+
+
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
